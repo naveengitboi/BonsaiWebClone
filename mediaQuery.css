@@ -1,0 +1,170 @@
+/* mobile View */
+@media screen and (max-width:425px) {
+    
+}
+
+
+
+
+/* laptoplarge View */
+@media screen and (min-width:769px) and (max-width:1024px) {
+ body 
+{
+    overflow-x:hidden ;
+}
+    
+
+
+
+
+/* Typo */
+.mainHeading
+{
+    font-size: 2.4rem;
+}
+h1
+{
+    font-size: 1.75rem;
+}
+p
+{
+    font-size: .9rem;
+}
+a 
+{
+    font-size: .80rem;
+}
+/* Typo */
+
+
+.navbar
+{
+    width: 100vw;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.navbar img
+{
+    width: 100px;
+}
+
+.navLinks a
+{
+    padding: .25rem .8rem;
+}
+
+/* navbar Done */
+.paddingPage
+{
+    padding: 1.75rem 2rem;
+}
+.heroLeftSection
+{
+    padding: 1rem 1.5
+    rem;
+
+}
+.smallForm a
+{
+    padding: .75rem;
+}
+.heroSection img 
+{
+    max-height: 50%;
+    max-width: 50%;
+}
+/* hero done */
+
+.makeMoreBox p 
+{
+    font-size: 1.2rem;
+}
+.makeMoreBox img 
+{
+    width: 320px;
+}   
+
+/* makeMore Done */
+
+.AlternateContentSection
+{
+    justify-content: space-between;
+}
+
+.AlternateContentSection li 
+{
+    height: 60px;
+}
+.AlternateContentSection a
+{
+    font-size: 1;
+}
+.AlternateContentSection li i
+{
+    font-size: 1.15rem;
+}
+
+
+.textForSelectedLink h1 
+{
+    font-size: 1.8rem;
+}
+
+.textForSelectedLink img 
+{
+    max-width: 400px;
+    margin-left: 12rem;
+}
+
+
+.backBox2
+{
+    top: 10%;
+    right: -40%;
+}
+/* alternate section done */
+
+.bsboxtop
+{
+    padding: 3rem 5rem;
+}
+
+.bsboxtop p 
+{
+    font-size: 1.025rem;
+}
+
+.bsbox1
+{
+    padding: 1rem 2rem;
+}
+
+/* alternateBox Done */
+
+.feedback
+{
+    height: auto;
+}
+
+.feedBackBox
+{
+    width: 480px;
+    margin: 1rem;
+    height: 400px;
+}
+.feedback img 
+{
+    margin: .5rem;
+}
+.FbText 
+{
+    padding:1rem 2rem;
+}
+.letsStartBanner
+{
+    background-color: #f2faff;
+    padding: 2rem 1.5rem;
+}
+
+}
