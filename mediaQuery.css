@@ -1,6 +1,277 @@
 /* mobile View */
 @media screen and (max-width:425px) {
-    
+    html,body 
+    {
+        width: auto;
+        overflow-x:hidden ;
+    }
+    .mainHeading
+{
+    font-size: 1.6rem;
+}
+h1
+{
+    font-size: 1.365rem;
+    font-weight: bold;
+}
+p
+{
+    font-size: .987rem;
+}
+a 
+{
+    font-size: .870rem;
+}
+.navbar
+{
+    width: 100vw;
+    justify-content: space-between;
+    padding: .75rem 1.75rem;
+}
+
+.navLinks ul
+{
+    display: none;
+}
+
+.navbar img
+{
+    width: 70px;
+}
+
+.signUpBox a
+{
+    padding: .3rem 1rem;
+    font-size: .75rem;
+}
+
+/* navbar done */
+
+
+/* heroSection */
+
+.paddingPage
+{
+    padding: .25rem 1rem;
+}
+.heroSection
+{
+
+    flex-direction: column;
+}
+.heroLeftSection
+{
+    padding: .75rem 1.75rem;
+
+}
+.EmailBox
+{
+    padding: .7rem .7rem;
+    max-width: 50%;
+    font-size: .785rem;
+}
+
+.smallForm a
+{
+    padding: .5850rem .65rem ;
+
+    font-size: .785rem;
+}
+
+
+.heroSection img 
+{
+    width: 100%;
+}
+
+/* heroSection Done */
+
+
+.makeMoreBox p 
+{
+    font-size: .875rem;
+}
+.makeMoreImgsection
+{
+    flex-direction: column;
+}
+
+.makeMoreBox img 
+{
+    width: 250px;
+    margin: 1.5rem;
+}
+
+/* makeMore Box is done doing */
+
+
+.AlternateContentSection
+{
+
+    margin-top: 2.5rem;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.textForSelectedLink 
+{
+    margin: 1rem 0 1rem 1.75rem;
+}
+
+.textForSelectedLink h1 
+{
+    font-size: 1.44rem;
+}
+.textForSelectedLink p 
+{
+    font-size: .985rem;
+}
+.textForSelectedLink img 
+{
+    max-width: 380px;
+    margin-left: 0rem;
+}
+.backBox2
+{
+    width: 700px;
+    top: 25%;
+    right: -90%;
+}
+/* alternate contentchange done */
+
+/* trust note */
+
+.trustNote
+{
+    height: auto;
+    margin-top: 2rem;
+}
+.builtSection
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.bsboxtop
+{
+    margin-top: 0rem;
+    padding: 3rem .5rem;
+}
+.bsbox1
+{
+    padding: 1rem 2rem;
+}
+
+/* trustnote done */
+
+.feedback
+{
+    margin-top: 7rem;
+    height: auto;
+}
+.feedback > div 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedBackBox
+{
+    width: auto;
+    border-radius: .75rem;
+    margin: .5rem 0rem;
+}
+.feedBackBox img 
+{
+    margin: .5rem;
+}
+.FbText 
+{
+    padding:1rem 2rem;
+    text-align: center;
+}
+.FbText h3 
+{
+    font-size: 1.15rem;
+    font-weight: 400;
+
+}
+
+.FbText h4 
+{
+    font-size: 1.25rem;
+    margin: .5rem 0;
+}
+.sliderButtons i
+{
+    display: none;
+}
+/* feedback is done */
+
+.letsStartBanner
+{
+    width: 100%;
+    background-color: #f2faff;
+    padding: .75rem;
+    flex-direction: column;
+
+}
+.letesStrBannerContainer
+{
+    text-align: center;
+    justify-content: center;
+
+}
+.startBtn
+{
+    padding: .5rem 1.5rem;
+    margin-top: .25rem;
+    border-radius: .25rem;
+}
+/* done banner */
+
+footer
+{
+    justify-content: flex-start;
+    padding: 4rem 1.25rem 4.8rem;
+}
+
+.footerContent li
+{
+    /* border: 2px solid red; */
+    padding: .25rem .5rem;
+    margin: .35rem 0;
+}
+.footerContent a 
+{
+    font-size: .75rem;
+}
+.footerContent img 
+{
+    margin: 0rem;
+    width: 120px;
+}
+.footerHeading
+{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.credits
+{
+    left: 15%;
+    flex-direction: column;
+}
+.credits a 
+{
+    margin: 0rem;
+}
+.credits p 
+{
+    font-size: .75rem;
+}
 }
 
 
